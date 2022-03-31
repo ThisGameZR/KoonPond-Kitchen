@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../layouts/NavBar";
+import Navbar from "../layouts/Navbar";
 import Footer from "../layouts/Footer";
 import MenuCard from "../components/MenuCard";
 import { foods } from "../mockup/food";
