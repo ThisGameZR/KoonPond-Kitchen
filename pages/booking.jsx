@@ -64,7 +64,6 @@ export default function Booking() {
                         placeholder="Phone number"
                       />
                     </div>
-                    '
                   </div>
                   <div className="mb-4 md:flex md:justify-between">
                     <div className="mb-4 md:mr-2 md:mb-0 w-full">
