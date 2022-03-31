@@ -10,7 +10,6 @@ export default function Index() {
   return (
     <>
       <Navbar />
-
       <div className="relative bg-white overflow-hidden sm:h-[90vh]">
         <div className="overflow-hidden mt-15 sm:hidden block">
           <img className="w-full object-cover " src="/assets/trophy.png" alt="" />
