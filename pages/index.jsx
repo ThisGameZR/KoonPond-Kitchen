@@ -38,7 +38,7 @@ export default function Index() {
                   <span className="block text-secondary-500 xl">MyCos Tech.</span>
                 </h1>
                 <p className="mt-3 text-base text-primary-100 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  Chef table for your next meal.
+                  The winner of Mycos Chef 2021
                   <br /> Cooked by the best chef in Chiang Mai.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">

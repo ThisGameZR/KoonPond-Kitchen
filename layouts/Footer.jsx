@@ -9,15 +9,13 @@ export default function Footer() {
 
           <div className="flex mt-3 -mx-2 sm:mt-0">
             <a
-              href="#"
-              onClick={() => {
-                navigator.clipboard.writeText("+66-(0)53-894-948");
-              }}
+              href="https://www.chefpondkitchen.pond"
+              target="_blank"
               className="mx-2 text-sm text-white hover:text-gray-500 dark:hover:text-gray-300"
               aria-label="Reddit"
             >
               {" "}
-              Phone number: +66-(0)53-894-948
+              www.chefpondkitchen.pond
             </a>
 
             <a href="mailto:sales@mycostech.com" className="mx-2 text-sm text-white hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit">
