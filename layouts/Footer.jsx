@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-primary-1000">
+    <footer className="bg-primary-1000 sticky bottom-0">
       <div className="container max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:py-10 lg:px-8">
         <div className="flex flex-col items-center sm:flex-row sm:justify-between">
           <p className="text-sm text-white text-center">Thailand Office: 12/1 NB Building Nimmanhemin Soi. 13 T. Suthep A. Muang Chiang Mai 50200</p>
