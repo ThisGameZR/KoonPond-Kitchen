@@ -16,11 +16,11 @@ export default function Booking() {
               ></div>
 
               <div className="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none">
-                <h3 className="pt-4 text-2xl text-center text-primary-600 font-bold">Booking for Meal</h3>
+                <h3 className="pt-4 text-2xl text-center text-primary-600 font-bold">Booking htmlFor Meal</h3>
                 <form className="px-8 pt-6 pb-8 mb-4 bg-white rounded">
                   <div className="mb-4 md:flex">
                     <div className="mb-4 md:mr-2 md:mb-0 w-full">
-                      <label className="block mb-2 text-sm font-bold text-gray-700" for="firstName">
+                      <label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="firstName">
                         First Name
                       </label>
                       <input
@@ -31,7 +31,7 @@ export default function Booking() {
                       />
                     </div>
                     <div className="md:ml-2 w-full">
-                      <label className="block mb-2 text-sm font-bold text-gray-700" for="lastName">
+                      <label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="lastName">
                         Last Name
                       </label>
                       <input
@@ -44,7 +44,7 @@ export default function Booking() {
                   </div>
                   <div className="mb-4 flex md:flex-row flex-col">
                     <div className="w-full mr-4">
-                      <label className="block mb-2 text-sm font-bold text-gray-700" for="email">
+                      <label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="email">
                         Email
                       </label>
                       <input
@@ -55,7 +55,7 @@ export default function Booking() {
                       />
                     </div>
                     <div className="w-full">
-                      <label className="block mb-2 text-sm font-bold text-gray-700" for="email">
+                      <label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="email">
                         Phone number
                       </label>
                       <input
@@ -68,7 +68,7 @@ export default function Booking() {
                   </div>
                   <div className="mb-4 md:flex md:justify-between">
                     <div className="mb-4 md:mr-2 md:mb-0 w-full">
-                      <label className="block mb-2 text-sm font-bold text-gray-700" for="password">
+                      <label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="password">
                         Date
                       </label>
                       <input
@@ -77,7 +77,7 @@ export default function Booking() {
                       />
                     </div>
                     <div className="md:ml-2 w-full">
-                      <label className="block mb-2 text-sm font-bold text-gray-700" for="c_password">
+                      <label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="c_password">
                         Time
                       </label>
                       <input
@@ -88,8 +88,8 @@ export default function Booking() {
                   </div>
                   <div className="mb-4 md:flex md:justify-between">
                     <div className="mb-4 md:mr-2 md:mb-0 w-full">
-                      <label className="block mb-2 text-sm font-bold text-gray-700" for="password">
-                        Reserve for
+                      <label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="password">
+                        Reserve htmlFor
                       </label>
                       <div className="flex md:h-[50%]">
                         <input
