@@ -4,6 +4,7 @@ import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Navbar from "../layouts/NavBar";
 import Footer from "../layouts/Footer";
+import Link from "next/link";
 
 export default function Index() {
   return (
@@ -42,20 +43,21 @@ export default function Index() {
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
-                    <a
+                    <Link
                       href="/menu"
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-secondary-1000 hover:bg-secondary-500 md:py-4 md:text-lg md:px-10"
                     >
-                      Menu
-                    </a>
+                      <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-secondary-1000 hover:bg-secondary-500 md:py-4 md:text-lg md:px-10">
+                        Menu
+                      </a>
+                    </Link>
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-3">
-                    <a
-                      href="/booking"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-secondary-1000 bg-secondary-100 hover:bg-secondary-1000 hover:text-white md:py-4 md:text-lg md:px-10"
-                    >
-                      Booking
-                    </a>
+                    <Link href="/booking">
+                      <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-secondary-1000 bg-secondary-100 hover:bg-secondary-1000 hover:text-white md:py-4 md:text-lg md:px-10">
+                        Booking
+                      </a>
+                    </Link>
                   </div>
                 </div>
               </div>

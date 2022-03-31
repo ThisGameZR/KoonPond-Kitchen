@@ -48,16 +48,15 @@ export default function Navbar() {
                   <div className="hidden sm:block sm:ml-6">
                     <div className="flex space-x-4">
                       {navigation.map((item) => (
-                        <Link
-                          key={item.name}
-                          href={item.href}
-                          className={classNames(
-                            item.current ? "bg-tertiary-1000 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                            "px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
-                          )}
-                          aria-current={item.current ? "page" : undefined}
-                        >
-                          {item.name}
+                        <Link key={item.name} href={item.href}>
+                          <a
+                            className={classNames(
+                              item.current ? "bg-tertiary-1000 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                              "px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
+                            )}
+                          >
+                            {item.name}
+                          </a>
                         </Link>
                       ))}
                     </div>
