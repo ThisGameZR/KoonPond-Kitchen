@@ -88,7 +88,7 @@ export default function Booking() {
                   <div className="mb-4 md:flex md:justify-between">
                     <div className="mb-4 md:mr-2 md:mb-0 w-full">
                       <label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="password">
-                        Reserve htmlFor
+                        Reserve For
                       </label>
                       <div className="flex md:h-[50%]">
                         <input
