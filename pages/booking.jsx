@@ -6,7 +6,7 @@ export default function Booking() {
   return (
     <>
       <Navbar />
-      <div className="w-screen bg-white flex flex-col justify-center items-center pt-20">
+      <div className="w-screen bg-white flex flex-col justify-center items-center pt-24">
         <div className="container mx-auto">
           <div className="flex justify-center px-6 my-12">
             <div className="w-full xl:w-3/4 lg:w-11/12 flex">
